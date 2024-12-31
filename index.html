@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Umyma Syed">
+    <meta name="description" content="DuaSphere is a platform to explore and learn various duas for different aspects of life.">
+    <meta name="keywords" content="Dua, Islamic, Prayer, Religion, Islam, Learning, Faith">
+    
+    <!-- Open Graph meta tags for social media sharing -->
+    <meta property="og:title" content="DuaSphere">
+    <meta property="og:description" content="Explore and learn various duas with DuaSphere.">
+    <meta property="og:image" content="icon.png">
+    <meta property="og:url" content="http://your-website-url.com">
+    
+    <!-- Twitter meta tags for sharing -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DuaSphere">
+    <meta name="twitter:description" content="Explore and learn various duas with DuaSphere.">
+    <meta name="twitter:image" content="icon.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="icon.png" type="image/png">
+
+    <title>DuaSphere</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1><i class="fas fa-star-and-crescent"></i>DuaSphere</h1>
+        <button class="theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </header>
+
+    <nav>
+        <button class="nav-btn" onclick="showPage('homePage')"><i class="fas fa-home"></i> Home</button>
+        <button class="nav-btn" onclick="showPage('duasPage')"><i class="fas fa-pray"></i> Duas</button>
+        
+        <button class="nav-btn" onclick="showPage('surahsPage')"><i class="fas fa-book-open"></i> Surahs</button>
+        
+        
+              
+        <button class="nav-btn" onclick="showPage('favoritesPage')"><i class="fas fa-heart"></i> Favorites</button>
+        <button class="nav-btn" onclick="showPage('dailySurahsPage')">
+    <i class="fas fa-quran"></i> Daily Surah
+</button>
+         <button class="nav-btn" onclick="showPage('dailyDuasPage')"><i class="fas fa-book-reader"></i> Daily Duas</button>
+         
+    </nav>
+
+    <div id="homePage">
+        <div class="hero">
+            <h2>Welcome to Your Spiritual Journey</h2>
+            <p>Explore, learn, and connect with the wisdom of Islam</p>
+        </div>
+        <div class="features">
+            <div class="feature-card" id="duasCard">
+                <i class="fas fa-book-reader"></i>
+                <h3>Daily Duas</h3>
+                <p>Discover and memorize essential duas for everyday life</p>
+            </div>
+
+            
+            <div class="feature-card">
+                <i class="fas fa-quran"></i>
+                <h3>Surah Collection</h3>
+                <p>Read and listen to beautiful Quranic surahs</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-star"></i>
+                <h3>Favorites</h3>
+                <p>Save your most loved duas and surahs for quick access</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="duasPage" class="hidden">
+        <h2><i class="fas fa-pray"></i> Duas</h2>
+        <div id="duasList"></div>
+    </div>
+                       
+    <div id="dailySurahsPage" class="hidden">
+        <h2><i class="fas fa-quran"></i> Surahs</h2>
+        <div id="dailySurahsList"></div>
+    </div>
+    <div id="surahsPage" class="hidden">
+        <h2><i class="fas fa-book-open"></i> Surahs</h2>
+        <div id="surahsList">
+            
+        </div>
+    </div>
+    
+<div id="dailyDuasPage" class="hidden">
+    <h2><i class="fas fa-book-reader"></i> Daily Duas</h2>
+    <div id="dailyDuasList"></div>
+</div>
+            
+    <div id="favoritesPage" class="hidden">
+        <h2><i class="fas fa-heart"></i> Favorites</h2>
+        <div id="favoritesList"></div>
+    </div>
+</div>
+
+<div id="addEditModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modalTitle">Add New Dua</h2>
+        <form id="duaForm">
+            <input type="hidden" id="duaId">
+            <div class="form-group">
+                <label for="arabicText">Arabic Text:</label>
+                <textarea id="arabicText" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="translation">Translation:</label>
+                <textarea id="translation" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="reference">Reference:</label>
+                <input type="text" id="reference" required>
+            </div>
+            <button type="submit" class="submit-btn">Save Dua</button>
+        </form>
+    </div>
+</div>
+
+<div class="fab" onclick="openAddDuaModal()">
+    <i class="fas fa-plus"></i>
+</div>
+
+    <script src="script.js" defer></script>
+      <script type="module" src="object.js"></script>
+      
+      
+      
+</body>
+</html>
+
