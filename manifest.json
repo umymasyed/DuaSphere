@@ -4,8 +4,8 @@
   "description": "A platform to explore and learn various duas for different aspects of life.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#4CAF50",
+  "background_color": "#0D3C47",
+  "theme_color": "#CBA135",
   "icons": [
     {
       "src": "icon.png",
@@ -22,3 +22,4 @@
   "orientation": "portrait",
   "prefer_related_applications": false
 }
+
