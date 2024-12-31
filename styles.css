@@ -231,7 +231,7 @@ h1:hover i {
 .modal-content {
     background-color: var(--card-bg);
     margin: 15% auto;
-    padding: 20px;
+    padding: 60px;
     border-radius: 10px;
     width: 80%;
     max-width: 500px;
