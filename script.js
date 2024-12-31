@@ -56,12 +56,15 @@ let duas = [
         favorite: false
     },
     
+    
     {
         id: 9,
         arabic: "لاَ إِلَهَ إِلَّا اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَ هُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ ، سُبْحَانَ اللهِ، وَالْحَمْدُ للهِ، وَلَا إِلَهَ إِلَّا اللهُ، وَاللهُ أَكْبَرُ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ، رَبِّ اغْفِرْ لِي.",
-        reference: "Hadith",
+        translation: "There is no deity except Allah, Alone, with no partner. His is the dominion, and His is the praise. And He is over all things capable. Glory is to Allah, and praise is to Allah, and there is no deity except Allah, and Allah is the Greatest, and there is no power and no strength except with Allah, the Most High, the Most Great. O Lord, forgive me.",
+        reference: "Various Sources",
         favorite: false
     },
+
 
     {
         id: 10,
@@ -85,12 +88,14 @@ let duas = [
         favorite: false
     },
     
+    
     {
         id: 13,
-        arabic: "رَبِّ إِنِّي استخِيرُكَ بِعِلْمِكَ وَاستَقْدِرُكَ بِقُدْرَتِكَ وَسْئَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ فَإِنَّكَ تَقْدِرُ وَلَا أَقْدِرُ وَتَعْلَمُ وَلَا أَعْلَمُ وَأنتَ عَلَّامُ الْغُيُوبِ اللَّهُمَّ إِن كُنتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ خَيْرٌ لِّي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي أَوْ قُولِّي لِي فِيهِ فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي ثُمَّ بَارِكْ لِي فِيهِ وَإِن كُنتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ شَرٌّ لِّي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي أَوْ قُولِّي لِي فِيهِ فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ وَقَدِّرْ لِيَ الْخَيْرَ حَيْثُ كَانَ ثُمَّ أَرْضِنِي",
-        reference: "Dua Istikhara",
-        favorite: true
+        arabic: "اللهم إني استخيرك بعلمك واستقدرك بقدرتك واسالك من فضلك العظيم، فإنك تقدر ولا اقدر وتعلم ولا اعلم وانت علام الغيوب، اللهم إن كنت تعلم ان هذا الامر خير لي في ديني ومعاشي وعاقبة امري او قال عاجل امري وآجله فاقدره لي ويسره لي ثم بارك لي فيه، اللهم وإن كنت تعلم ان هذا الامر شر لي في ديني ومعاشي وعاقبة امري او قال في عاجل امري وآجله فاصرفه عني واصرفني عنه، واقدر لي الخير حيث كان ثم ارضني.",
+        translation: "O Allah, I seek Your guidance through Your knowledge and seek Your ability through Your power, and ask You from Your great bounty. You are capable, and I am not. You know, and I do not. You are the Knower of the unseen. O Allah, if You know that this matter is good for me in my religion, livelihood, and the outcome of my affairs, or if it is good for my immediate or future affairs, then ordain it for me, make it easy for me, and bless it for me. But if You know that this matter is bad for me in my religion, livelihood, and the outcome of my affairs, or if it is bad for my immediate or future affairs, then turn it away from me and turn me away from it. And ordain for me what is good wherever it may be, and make me content with it.",
+        reference: "Sahih al-Bukhari"
     }
+
 ];
 
 
