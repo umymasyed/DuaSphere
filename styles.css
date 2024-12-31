@@ -216,6 +216,9 @@ h1:hover i {
 .favorite {
     color: #e53e3e;
 }
+.modal-content h2{
+    text-align :center ;
+}
 
 .modal {
     display: none;
@@ -228,15 +231,19 @@ h1:hover i {
         background-color: rgba(0,0,0,0.4);
 }
 
-.modal-content {
-    background-color: var(--card-bg);
-    margin: 5% auto;
-    padding: 60px;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 500px;
-    animation: slideIn 0.3s ease-out;
-}
+
+    .modal-content {
+        background-color: var(--card-bg);
+        margin: 5% auto;
+        padding: 5px;
+        border-radius: 10px;
+         /* Set width to 90% on mobile */
+        max-width: 500px;
+        animation: slideIn 0.3s ease-out;
+        box-sizing: border-box;
+        
+    }
+  
 
 .close {
     color: #aaa;
@@ -257,14 +264,17 @@ h1:hover i {
 .form-group label {
     display: block;
     margin-bottom: 5px;
+    margin-left:10px;
 }
 
 .form-group input,
 .form-group textarea {
-    width: 100%;
+    width: 90%;
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    margin-bottom:10px;
+    margin-left:10px;
 }
 
 .submit-btn {
@@ -275,6 +285,8 @@ h1:hover i {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin:10px;
+    
 }
 
 .submit-btn:hover {
@@ -417,4 +429,4 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
-}
+ }
