@@ -100,28 +100,26 @@ let duas = [
 
 
 const surahs = [
-
     {
         name: "Surah Al-Mulk",
         arabic: "الملك",
-        file: "pdf/surah-al-mulk.pdf"
+        file: "surahs/surah-al-mulk.html"
     },
     {
         name: "Surah Yasin",
         arabic: "يس",
-        file: "pdf/surah-ya-sin.pdf"
+        file: "surahs/surah-ya-sin.html"
     },
     {
         name: "Surah Ar-Rahman",
         arabic: "الرحمن",
-        file: "pdf/surah-ar-rahman.pdf"
+        file: "surahs/surah-ar-rahman.html"
     },
     {
         name: "Surah Al-Kahf",
         arabic: "الكهف",
-        file: "pdf/surah-al-kahf.pdf"
+        file: "surahs/surah-al-kahf.html"
     }
-    
 ];
 let dailySurahs = [
     {
@@ -529,8 +527,9 @@ function renderSurahs() {
         surahButton.innerText = surah.name;
         
         // Add an event listener to open the file in a new tab
-        surahButton.addEventListener('click', function() {
+        surahButton.addEventListener('click', function(e) {
             window.open(surah.file, '_blank');
+              e.preventDefault();
         });
 
         surahsList.appendChild(surahButton);
