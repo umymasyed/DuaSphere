@@ -90,10 +90,18 @@ let duas = [
     
     
     {
-        id: 13,
-        arabic: "اللهم إني استخيرك بعلمك واستقدرك بقدرتك واسالك من فضلك العظيم، فإنك تقدر ولا اقدر وتعلم ولا اعلم وانت علام الغيوب، اللهم إن كنت تعلم ان هذا الامر خير لي في ديني ومعاشي وعاقبة امري او قال عاجل امري وآجله فاقدره لي ويسره لي ثم بارك لي فيه، اللهم وإن كنت تعلم ان هذا الامر شر لي في ديني ومعاشي وعاقبة امري او قال في عاجل امري وآجله فاصرفه عني واصرفني عنه، واقدر لي الخير حيث كان ثم ارضني.",
-        translation: "O Allah, I seek Your guidance through Your knowledge and seek Your ability through Your power, and ask You from Your great bounty. You are capable, and I am not. You know, and I do not. You are the Knower of the unseen. O Allah, if You know that this matter is good for me in my religion, livelihood, and the outcome of my affairs, or if it is good for my immediate or future affairs, then ordain it for me, make it easy for me, and bless it for me. But if You know that this matter is bad for me in my religion, livelihood, and the outcome of my affairs, or if it is bad for my immediate or future affairs, then turn it away from me and turn me away from it. And ordain for me what is good wherever it may be, and make me content with it.",
-        reference: "Sahih al-Bukhari"
+    "id": 13,
+    "arabic": "اَللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ، فَإِنَّكَ تَقْدِرُ وَلَا أَقْدِرُ، وَتَعْلَمُ وَلَا أَعْلَمُ، وَأَنْتَ عَلَّامُ الْغُيُوبِ. اَللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي، أَوْ قَالَ: فِي عَاجِلِ أَمْرِي وَآجِلِهِ، فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي، ثُمَّ بَارِكْ لِي فِيهِ، وَإِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ شَرٌّ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي، أَوْ قَالَ: فِي عَاجِلِ أَمْرِي وَآجِلِهِ، فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ، وَاقْدُرْ لِيَ الْخَيْرَ حَيْثُ كَانَ، ثُمَّ أَرْضِنِي.",
+    "translation": "O Allah, I seek Your guidance through Your knowledge and seek Your ability through Your power, and ask You from Your great bounty. You are capable, and I am not. You know, and I do not. You are the Knower of the unseen. O Allah, if You know that this matter is good for me in my religion, livelihood, and the outcome of my affairs, or if it is good for my immediate or future affairs, then ordain it for me, make it easy for me, and bless it for me. But if You know that this matter is bad for me in my religion, livelihood, and the outcome of my affairs, or if it is bad for my immediate or future affairs, then turn it away from me and turn me away from it. And ordain for me what is good wherever it may be, and make me content with it.",
+    "reference": "Sahih al-Bukhari",
+        favorite: true
+    },
+    {
+    "id": 14,
+    "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنِّي أَشْهَدُ أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلَّا أَنْتَ، الْأَحَدُ الصَّمَدُ، الَّذِي لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ.",
+    "translation": "O Allah, I ask You as I bear witness that You are Allah, there is no deity but You, the One, the Eternal Refuge, who neither begets nor is born, and there is none comparable to Him.",
+    "reference": "Sunan Abi Dawood, Hadith 1493",
+        favorite: true
     }
 
 ];
